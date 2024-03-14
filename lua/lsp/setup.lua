@@ -18,7 +18,6 @@ require("mason-lspconfig").setup({
 		'clangd',
 		'pylsp',
 		'bashls',
-		'jsonls',
 	},
 })
 
