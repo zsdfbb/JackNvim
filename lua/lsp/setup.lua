@@ -17,7 +17,6 @@ require("mason-lspconfig").setup({
 		'rust_analyzer',
 		'clangd',
 		'pylsp',
-		'bashls',
 	},
 })
 
