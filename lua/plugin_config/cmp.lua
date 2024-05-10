@@ -32,10 +32,6 @@ cmp.setup {
             name = 'luasnip',
             option = { use_show_condition = true }
         },
-        {
-            -- lsp 代码补全
-            name = "nvim_lsp"
-        }
     },
     -- 快捷键设置
     mapping = {
@@ -82,15 +78,4 @@ require("cmp_dictionary").setup({
 require("luasnip.loaders.from_vscode").lazy_load({
     paths = { "~/.config/nvim/snip/friendly-snippets" }
 })
-
--- The nvim-cmp almost supports LSP's capabilities
--- so You should advertise it to LSP servers..
-
--- local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
--- The following example advertise capabilities to `clangd`.
-
--- require'lspconfig'.clangd.setup {
---     capabilities = capabilities,
--- }
 

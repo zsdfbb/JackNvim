@@ -18,5 +18,3 @@ require("plugin_config.bufferline")
 require("plugin_config.cmp")
 require("plugin_config.todo_commment")
 
--- LSP
--- require("lsp.setup")

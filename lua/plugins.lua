@@ -23,9 +23,6 @@ packer.startup({
         use 'L3MON4D3/LuaSnip'
         use 'hrsh7th/nvim-cmp'
         -- 代码分析
-        -- use 'neovim/nvim-lspconfig'
-        -- use 'williamboman/mason.nvim'
-        -- use 'williamboman/mason-lspconfig.nvim'
     end,
     config = {
         -- 并发数限制
