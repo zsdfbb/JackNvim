@@ -85,9 +85,12 @@ require("luasnip.loaders.from_vscode").lazy_load({
 
 -- The nvim-cmp almost supports LSP's capabilities
 -- so You should advertise it to LSP servers..
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
+-- local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 -- The following example advertise capabilities to `clangd`.
-require'lspconfig'.clangd.setup {
-    capabilities = capabilities,
-}
+
+-- require'lspconfig'.clangd.setup {
+--     capabilities = capabilities,
+-- }
 
