@@ -14,10 +14,9 @@ require('plugins')
 require("highlight")
 require("plugin_config.nvim_tree")
 require("plugin_config.telescope")
--- require("plugin_config.treesitter")
 require("plugin_config.bufferline")
 require("plugin_config.cmp")
 require("plugin_config.todo_commment")
 
 -- LSP
-require("lsp.setup")
+-- require("lsp.setup")

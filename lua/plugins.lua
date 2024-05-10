@@ -13,8 +13,6 @@ packer.startup({
         -- use 'zsdfbb/telescope.nvim'
         use 'nvim-telescope/telescope.nvim'
         -- 语法高亮
-        -- use 'zsdfbb/nvim-treesitter'
-        use 'nvim-treesitter/nvim-treesitter'
         -- use 'zsdfbb/todo-comments.nvim'
         use 'folke/todo-comments.nvim'
         -- gruvbox 主题
